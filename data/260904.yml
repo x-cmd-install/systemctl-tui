@@ -7,7 +7,7 @@ about:
   head: 36dac28
   archived: false
   latestVersion: v0.8.0
-  collectedAt: 2026-09-04T19:44:22Z
+  collectedAt: 2026-09-04T20:50:24Z
 timeline:
   created: 2023-08-16
   lastCommit: 2026-07-27
@@ -84,5 +84,38 @@ total:
   openIssue: 6
   commit: 397
 ---
+path: /home/runner/.x-repo/github.com/rgwood/systemctl-tui
+collectedAt: 2026-09-04T20:50:24Z
+loc:
+  Rust:
+    code: 7763
+    comments: 219
+    blanks: 848
+    files: 19
+  Python:
+    code: 1051
+    comments: 106
+    blanks: 207
+    files: 3
+  Toml:
+    code: 108
+    comments: 11
+    blanks: 9
+    files: 6
+  Sh:
+    code: 16
+    comments: 6
+    blanks: 6
+    files: 1
+  Markdown:
+    code: 0
+    comments: 138
+    blanks: 65
+    files: 6
+total:
+  code: 8951
+  comments: 741
+  blanks: 1159
+  files: 35
 ---
 
