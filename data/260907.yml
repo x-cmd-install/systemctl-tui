@@ -5,13 +5,13 @@ about:
   head: 36dac28
   archived: false
   latestVersion: "v0.8.0"
-  collectedAt: 2026-09-07T04:16:23Z
+  collectedAt: 2026-09-07T20:09:37Z
 timeline:
   created: 2023-08-16
   lastCommit: 2026-07-27
   lastRelease: 2026-07-27
 popularity:
-  star: 2049
+  star: 2051
   watcher: 13
   fork: 56
   release: 24
@@ -83,7 +83,7 @@ total:
   commit: 397
 ---
 path: /home/runner/.x-repo/github.com/rgwood/systemctl-tui
-collectedAt: 2026-09-07T04:16:23Z
+collectedAt: 2026-09-07T20:09:38Z
 loc:
   Rust:
     code: 7763
@@ -119,7 +119,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:16:24+00:00
+  collectedAt: 2026-09-07T20:09:38+00:00
   platform:
     darwin/arm64:
       name:  systemctl-tui_0.8.0-1_arm64.deb
