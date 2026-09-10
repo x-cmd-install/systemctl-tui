@@ -12,6 +12,18 @@ A fast, simple TUI for interacting with systemd services and their logs
 x install systemctl-tui
 ```
 
+## 代码规模
+
+合计: **8,938** 行代码（覆盖前 5 种语言、共 **35** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 7,763 | 219 | 848 | 19 |
+| Python | 1,051 | 106 | 207 | 3 |
+| Toml | 108 | 11 | 9 | 6 |
+| Sh | 16 | 6 | 6 | 1 |
+| Markdown | 0 | 138 | 65 | 6 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/rgwood/systemctl-tui>
@@ -22,15 +34,6 @@ x install systemctl-tui
 - **最新版本**: `v0.8.0` (2026-07-27)
 - **最近提交**: 2026-07-27
 - **Release 含资产**: 4 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [systemctl-tui-aarch64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
-| [systemctl-tui-x86_64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-x86_64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/x64/musl` |
-| [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
-| [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
 ## 流行度
 
@@ -45,20 +48,29 @@ x install systemctl-tui
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 7 | 27 | 0 | 4 | 1 | 46 |
 | 90d | 2026-06-12 | 7 | 36 | 0 | 4 | 1 | 81 |
+| last180d | 2026-03-14 | 8 | 42 | 0 | 6 | 1 | 90 |
 | 360d | 2025-09-15 | 11 | 48 | 0 | 12 | 2 | 130 |
+| last720d | 2024-09-20 | 14 | 55 | 0 | 26 | 6 | 207 |
 
-## 代码规模
+## Release 资产
 
-合计: **8,938** 行代码（覆盖前 5 种语言、共 **35** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [systemctl-tui-aarch64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
+| [systemctl-tui-x86_64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-x86_64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/x64/musl` |
+| [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
+| [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 7,763 | 219 | 848 | 19 |
-| Python | 1,051 | 106 | 207 | 3 |
-| Toml | 108 | 11 | 9 | 6 |
-| Sh | 16 | 6 | 6 | 1 |
-| Markdown | 0 | 138 | 65 | 6 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/systemctl-tui) 上共有 **19** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**12** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.8.0` | ✅ latest |
+| Nix unstable | `0.8.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +81,4 @@ systemctl-tui 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T15:57:55Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:11:06Z._
