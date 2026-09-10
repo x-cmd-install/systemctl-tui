@@ -4,7 +4,7 @@
 
 A fast, simple TUI for interacting with systemd services and their logs
 
-![systemctl-tui](https://repo.x-cmd.io/systemctl-tui.svg)
+![systemctl-tui](https://repo.x-cmd.io/systemctl-tui.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,15 @@ x install systemctl-tui
 - **最新版本**: `v0.8.0` (2026-07-27)
 - **最近提交**: 2026-07-27
 - **Release 含资产**: 4 个
-- **发布时间**: 2026-07-27T23:41:46Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [systemctl-tui-aarch64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
+| [systemctl-tui-x86_64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-x86_64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/x64/musl` |
+| [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
+| [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
 ## 流行度
 
@@ -61,4 +69,4 @@ systemctl-tui 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:20:08Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:57:55Z._

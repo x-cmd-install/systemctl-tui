@@ -22,7 +22,15 @@ x install systemctl-tui
 - **Latest**: `v0.8.0` (2026-07-27)
 - **Last commit**: 2026-07-27
 - **Assets in release**: 4
-- **Published**: 2026-07-27T23:41:46Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [systemctl-tui-aarch64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
+| [systemctl-tui-x86_64-unknown-linux-musl.tar.gz](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-x86_64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/x64/musl` |
+| [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
+| [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
 ## Popularity
 
@@ -57,8 +65,8 @@ Total: **8,938** lines of code across **35** files in the top 5 languages.
 Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `systemctl-tui` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/systemctl-tui.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/systemctl-tui.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:20:08Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:57:54Z._
