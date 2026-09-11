@@ -37,7 +37,7 @@ Total: **8,938** lines of code across **35** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,050 · **Forks**: 56 · **Open issues**: 47 · **Contributors**: 12
+- **Stars**: 2,052 · **Forks**: 56 · **Open issues**: 47 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **8,938** lines of code across **35** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-12 | 7 | 27 | 0 | 4 | 1 | 46 |
-| 90d | 2026-06-12 | 7 | 36 | 0 | 4 | 1 | 81 |
-| last180d | 2026-03-14 | 8 | 42 | 0 | 6 | 1 | 90 |
-| 360d | 2025-09-15 | 11 | 48 | 0 | 12 | 2 | 130 |
-| last720d | 2024-09-20 | 14 | 55 | 0 | 26 | 6 | 207 |
+| 30d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 6 | 27 | 0 | 4 | 1 | 46 |
+| 90d | 2026-06-13 | 7 | 35 | 0 | 4 | 1 | 81 |
+| last180d | 2026-03-15 | 8 | 42 | 0 | 6 | 1 | 90 |
+| 360d | 2025-09-16 | 11 | 48 | 0 | 12 | 2 | 130 |
+| last720d | 2024-09-21 | 14 | 55 | 0 | 26 | 6 | 207 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:40:30Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:20:03Z._
