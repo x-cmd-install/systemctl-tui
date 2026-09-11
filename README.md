@@ -37,7 +37,7 @@ Total: **8,938** lines of code across **35** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,052 · **Forks**: 56 · **Open issues**: 47 · **Contributors**: 12
+- **Stars**: 2,053 · **Forks**: 56 · **Open issues**: 47 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -81,4 +81,4 @@ Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:20:03Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:49:19Z._
