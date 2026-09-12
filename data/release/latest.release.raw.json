@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1954423,
       "digest": "sha256:69e1236a9a5f742fa905338e252e883c8139253ed863aad28dde47446d0bb909",
-      "download_count": 34802,
+      "download_count": 35094,
       "created_at": "2026-07-27T23:44:05Z",
       "updated_at": "2026-07-27T23:44:05Z",
       "browser_download_url": "https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui-x86_64-unknown-linux-musl.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1477696,
       "digest": "sha256:ac5de860f054748fd6441884857d237630e413a711b7b99a21d6bf84ca653fa8",
-      "download_count": 95,
+      "download_count": 96,
       "created_at": "2026-07-27T23:43:28Z",
       "updated_at": "2026-07-27T23:43:28Z",
       "browser_download_url": "https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb"
