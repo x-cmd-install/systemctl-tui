@@ -14,11 +14,11 @@ x install systemctl-tui
 
 ## Code insight
 
-Total: **8,938** lines of code across **35** files in the top 5 languages.
+Total: **8,966** lines of code across **35** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 7,763 | 219 | 848 | 19 |
+| Rust | 7,791 | 219 | 849 | 19 |
 | Python | 1,051 | 106 | 207 | 3 |
 | Toml | 108 | 11 | 9 | 6 |
 | Sh | 16 | 6 | 6 | 1 |
@@ -32,27 +32,27 @@ Total: **8,938** lines of code across **35** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.8.0` (2026-07-27)
-- **Last commit**: 2026-07-27
+- **Last commit**: 2026-10-03
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 2,066 · **Forks**: 58 · **Open issues**: 47 · **Contributors**: 12
+- **Stars**: 2,066 · **Forks**: 58 · **Open issues**: 48 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 66 · **Open PRs**: 0 · **Closed issues**: 41 · **Open issues**: 6 · **Commits**: 397
+- **Releases**: 24 · **Merged PRs**: 67 · **Open PRs**: 0 · **Closed issues**: 42 · **Open issues**: 6 · **Commits**: 399
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-03 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-04 | 7 | 35 | 0 | 4 | 1 | 81 |
-| last180d | 2026-04-05 | 7 | 38 | 0 | 5 | 1 | 83 |
-| 360d | 2025-10-07 | 11 | 48 | 0 | 10 | 2 | 130 |
-| last720d | 2024-10-12 | 14 | 55 | 0 | 23 | 6 | 207 |
+| 30d | 2026-09-03 | 0 | 1 | 0 | 1 | 0 | 1 |
+| last60d | 2026-08-04 | 0 | 1 | 0 | 1 | 0 | 1 |
+| 90d | 2026-07-05 | 7 | 36 | 0 | 5 | 1 | 82 |
+| last180d | 2026-04-06 | 7 | 39 | 0 | 6 | 1 | 84 |
+| 360d | 2025-10-08 | 11 | 49 | 0 | 11 | 2 | 131 |
+| last720d | 2024-10-13 | 14 | 56 | 0 | 24 | 6 | 209 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T05:19:21Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T05:02:08Z._
