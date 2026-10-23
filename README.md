@@ -37,7 +37,7 @@ Total: **8,966** lines of code across **35** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,085 · **Forks**: 59 · **Open issues**: 49 · **Contributors**: 12
+- **Stars**: 2,086 · **Forks**: 59 · **Open issues**: 49 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **8,966** lines of code across **35** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 1 | 0 | 1 | 1 | 1 |
-| last60d | 2026-08-23 | 0 | 1 | 0 | 1 | 1 | 1 |
-| 90d | 2026-07-24 | 1 | 7 | 0 | 1 | 1 | 2 |
-| last180d | 2026-04-25 | 7 | 38 | 0 | 6 | 2 | 84 |
-| 360d | 2025-10-27 | 11 | 49 | 0 | 10 | 2 | 128 |
-| last720d | 2024-11-01 | 14 | 56 | 0 | 25 | 6 | 209 |
+| 30d | 2026-09-23 | 0 | 1 | 0 | 1 | 1 | 1 |
+| last60d | 2026-08-24 | 0 | 1 | 0 | 1 | 1 | 1 |
+| 90d | 2026-07-25 | 1 | 1 | 0 | 1 | 1 | 2 |
+| last180d | 2026-04-26 | 7 | 38 | 0 | 6 | 2 | 84 |
+| 360d | 2025-10-28 | 11 | 49 | 0 | 10 | 2 | 128 |
+| last720d | 2024-11-02 | 14 | 56 | 0 | 25 | 6 | 209 |
 
 ## Release assets
 
@@ -63,6 +63,15 @@ Total: **8,966** lines of code across **35** files in the top 5 languages.
 | [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
 | [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
+## Distribution status
+
+Reported by **19** distros on [repology.org](https://repology.org/project/systemctl-tui). **6** are ✅ on the latest upstream release, **12** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `0.8.0` | ✅ latest |
+| Nix unstable | `0.8.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `systemctl-tui` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -72,4 +81,4 @@ Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:23:45Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:28:24Z._
