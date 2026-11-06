@@ -47,12 +47,12 @@ Total: **9,257** lines of code across **36** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 1 | 0 | 1 | 1 | 1 |
-| last60d | 2026-09-06 | 0 | 2 | 0 | 2 | 1 | 2 |
-| 90d | 2026-08-07 | 0 | 2 | 0 | 2 | 1 | 2 |
-| last180d | 2026-05-09 | 7 | 38 | 0 | 7 | 2 | 84 |
-| 360d | 2025-11-10 | 11 | 50 | 0 | 11 | 2 | 129 |
-| last720d | 2024-11-15 | 14 | 57 | 0 | 26 | 6 | 210 |
+| 30d | 2026-10-07 | 0 | 1 | 0 | 1 | 1 | 1 |
+| last60d | 2026-09-07 | 0 | 2 | 0 | 2 | 1 | 2 |
+| 90d | 2026-08-08 | 0 | 2 | 0 | 2 | 1 | 2 |
+| last180d | 2026-05-10 | 7 | 38 | 0 | 7 | 2 | 84 |
+| 360d | 2025-11-11 | 11 | 50 | 0 | 11 | 2 | 129 |
+| last720d | 2024-11-16 | 14 | 57 | 0 | 26 | 6 | 210 |
 
 ## Release assets
 
@@ -63,6 +63,15 @@ Total: **9,257** lines of code across **36** files in the top 5 languages.
 | [systemctl-tui_0.8.0-1_amd64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_amd64.deb) | 1.4 MiB | `runtime/deb/amd64` |
 | [systemctl-tui_0.8.0-1_arm64.deb](https://github.com/rgwood/systemctl-tui/releases/download/v0.8.0/systemctl-tui_0.8.0-1_arm64.deb) | 1.4 MiB | `runtime/deb/arm64` |
 
+## Distribution status
+
+Reported by **17** distros on [repology.org](https://repology.org/project/systemctl-tui). **4** are ✅ on the latest upstream release, **12** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `0.8.0` | ✅ latest |
+| Nix unstable | `0.8.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `systemctl-tui` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -72,4 +81,4 @@ Install metadata for systemctl-tui lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:20:18Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:14:42Z._
