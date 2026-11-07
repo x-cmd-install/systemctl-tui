@@ -1,3 +1,36 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: systemctl-tui
+  binname: systemctl-tui
+  visiblename: systemctl-tui
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: newest
+  summary: A fast, simple TUI for interacting with systemd services and their logs
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: systemctl-tui
+  binname: systemctl-tui
+  visiblename: systemctl-tui
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: newest
+  summary: A fast, simple TUI for interacting with systemd services and their logs
+  licenses:
+    - MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: systemctl-tui
+  binname: systemctl-tui
+  visiblename: systemctl-tui
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: newest
+  summary: A fast, simple TUI for interacting with systemd services and their logs
+  licenses:
+    - MIT
 - repo: alt_p11
   srcname: systemctl-tui
   binnames:
@@ -109,17 +142,6 @@
     - Unicode-DFS-2016
   categories:
     - sys-apps
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: systemctl-tui
-  binname: systemctl-tui
-  visiblename: systemctl-tui
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: newest
-  summary: A fast, simple TUI for interacting with systemd services and their logs
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: systemctl-tui
   visiblename: systemctl-tui
